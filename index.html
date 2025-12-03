@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizLoop</title>
+    <!-- Link To CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/d71298a379.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <div class="navbar__container">
+                <a href="/" id="navbar-logo">QuizLoop</a>
+                <ul class="navbar__menu">
+                    <li class="navbar__btn mobile">
+                        <a href="/signup.html" class="button">Sign Up</a>
+                    </li>
+                </ul>
+                <div class="navbar__btn desktop">
+                    <a href="/signup.html" class="button">Sign Up</a>
+                </div>
+                <button class="navbar__toggle" id="mobile-menu" aria-label="Toggle Navigation" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+<!-- Hero Section -->
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1>An easy way to learn programming</h1>
+                    <p>Join us and become a developer. The futur is in your hand!</p>
+                    <!-- <button class="hero__btn">Start Now</button> -->
+                    <a href="#choose-dif" class="hero__btn">Start Now</a>
+                </div>
+                <div class="hero__image">
+                    <img id="hero-img" src="images/hero-pic-1.svg" alt="Illustration of programming">
+                </div>
+            </div>
+        </section>
+
+<!-- Rotating Logos Section -->
+        <div class="rotating-logos">
+            <div class="rotating-logos__track">
+                <span class="logo-text">HTML</span>
+                <span class="logo-text">CSS</span>
+                <span class="logo-text">JavaScript</span>
+                <span class="logo-text">TypeScript</span>
+                <span class="logo-text">React</span>
+                <span class="logo-text">SQL</span>
+                <span class="logo-text">Python</span>
+            </div>
+        </div>
+
+<!-- Why Choose Us Section -->
+        <section class="why-choose-us">
+            <div class="container">
+                <h2>Why Choose Us</h2>
+                <p class="intro-text">
+                    Learn programming faster with our Montessori-style method designed to make learning simple, playful, and effective.
+                </p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-book-atlas icon"></i>
+                        <h3>We prioritize real problem-solving skills</h3>
+                        <p>Not memorizing syntax, we help you think like a developer.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-fire icon"></i>
+                        <h3>Learn by doing through interactive challenges</h3>
+                        <p>You progress by solving quizzes, levels, and coding puzzles that mirror real programming situations.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-school icon"></i>
+                        <h3>Grow at your own pace with our Montessori-inspired method</h3>
+                        <p>No pressure, no rush. You learn naturally through guidance, experimentation, and discovery.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-gamepad icon"></i>
+                        <h3>Gamified progression that keeps you motivated</h3>
+                        <p>Earn coins, unlock achievements, and level up as you learn, staying consistent becomes fun, not stressful.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+<!-- Pricing Section -->
+        <section class="services">
+            <h2 id="choose-dif">Choose Your Difficulty</h2>
+
+            <!-- Quick Bits Plan -->
+            <div class="services__container">
+                <div class="services__card">
+                    <div class="card-content">
+                        <h3>Quick Bits</h3>
+                        <div class="card-price">
+                            <a href="/signup.html" class="price-btn">Start Now</a>
+                            <p id="small-desc">Your quick start foundation</p>
+                        </div>
+                        <div class="card-features">
+                            <p>Features:</p>
+                            <ul>
+                                <li>Short quizzes to refresh key programming basics.</li>
+                                <li>Perfect for quick practice sessions or warm-ups.</li>
+                                <li>Fix common syntax mistakes and build confidence fast.</li>
+                                <li>Fast results to help you learn without overthinking.</li>
+                                <li>Ideal for daily bite-sized learning.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Code Stretch Plan -->
+                <div class="services__card">
+                    <div class="card-content">
+                        <h3>Code Stretch</h3>
+                        <div class="card-price">
+                            <a href="/signup.html" class="price-btn">Start Now</a>
+                            <p id="small-desc">Go further, faster</p>
+                        </div>
+
+                        <div class="card-features">
+                            <p>Features:</p>
+                            <ul>
+                                <li>Medium-length quizzes with multi-step logic.</li>
+                                <li>Strengthens understanding of how code actually works.</li>
+                                <li>Boosts reasoning instead of memorizing answers.</li>
+                                <li>Focuses on problem-solving in real coding situations.</li>
+                                <li>Great balance between learning speed and depth.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Deep Mode Plan -->
+                <div class="services__card">
+                    <div class="card-content">
+                        <h3>Deep Mode</h3>
+                        <div class="card-price">
+                            <a href="/signup.html" class="price-btn">Start Now</a>
+                            <p id="small-desc">Master coding like a boss</p>
+                        </div>
+
+                        <div class="card-features">
+                            <p>Features:</p>
+                            <ul>
+                                <li>Advanced challenges that push real developer thinking.</li>
+                                <li>Complex problems that require deep analysis and logic.</li>
+                                <li>Strengthens understanding through challenging reasoning.</li>
+                                <li>Perfect for mastering skills beyond basic coding.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link-wrapper">
+                    <div class="footer__link-items">
+                        <h2>About QuizLoop</h2>
+                        <a href="/">Home</a>
+                        <a href="/features.html">Features</a>
+                        <a href="/myquizloop.html">myQuizLoop</a>
+                        <a href="/faq.html">FAQ</a>
+                    </div>
+                    <div class="footer__link-items">
+                        <h2>Legal Stuff</h2>
+                        <a href="/legal-notice.html">Legal Notice</a>
+                        <a href="/terms-and-conditions.html">Terms & Conditions</a>
+                        <a href="/privacy-policy.html">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="footer__link-wrapper">
+                    <div class="footer__link-items">
+                        <h2>Help</h2>
+                        <a href="/support.html">Support</a>
+                        <a href="/troubleshooting.html">Troubleshooting</a>
+                        <a href="/contact-us.html">Contact Us</a>
+                        <a href="/status.html">Status</a>
+                    </div>
+                </div>
+            </div>
+            
+            <section class="social__media">
+                <div class="social__media-wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer-logo">QuizLoop</a>
+                    </div>
+                    <p class="website__rights">© QuizLoop <span id="year"></span> All rights reserved</p>
+                    <div class="social__icons">
+                        <a href="https://www.instagram.com/sashimye_" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.x.com" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/samuel-kelly-08260a227/" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Sashimye" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
